@@ -26,18 +26,20 @@ The input option can be:
 [0] Exit program
 ```
 
-### Input data
+## Input data
 
 The input file is a Python file (.py) that already is in the project in 'dist' directory. The project already has the three files that
 contains instructions of the monolithic programs: sum, multiplication and factorial, that will be executed by the algorithm.
 
 The program has 4 registers: A, B, C and D. The user must start their values at the program entry.
 
-### Output data
+## Output data
 
-The output of the program is a quintuple that shows the values of the registers after undergoing some kind of instruction, and the next line. Example:
+The output of the program is a quintuple that shows the values of the registers after undergoing some kind of instruction, and the next line.
 
-#### Input:
+## Example
+
+### Input:
 
 ```
 Enter recorders values:
@@ -47,14 +49,14 @@ C: 3
 D: 0
 ```
 
-#### First line output:
+### First line output:
 
 ```
 Start of program
 -> (A->2, B->0, C->3, D->0) [First Instruction]
 ```
 
-#### Where, the output in the next lines will be:
+### Where, the output in the next lines will be:
 
 ```
 ((A value, B value, C value, D value), next_line)
