@@ -78,7 +78,7 @@ __sum = (
 )
 ```
 
-### Input values from, for example, the sum:
+### Input values, for example, to execute the sum:
 
 ```
 Enter recorders values:
