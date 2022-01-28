@@ -1,22 +1,18 @@
 # Norma’s Machine in Python
+Simulates a Norma's Machine with four recorders.
 
-Python program that simulates a Norma's Machine with 4 recorders.
-
-## What's Norma's Machine?
-
-NORMA (Number TheOretic Register MAchine) is a machine that has as memory an infinite set of registers instructions on each recorder:
+## What is Norma's Machine?
+NORMA (Number theOretic Register MAchine) is a machine that has as memory an infinite set of registers instructions on each recorder:
 
 * Increment of one;
 * Decrement of one;
 * Test whether the stored value is zero.
 
 ## How it's works?
-
 Just with 2 steps:
 First, it's necessary enter with the option. After, the user have to insert the Recorders values.
 
 ### Input option
-
 The input option can be:
 
 ```
@@ -27,20 +23,15 @@ The input option can be:
 ```
 
 ## Input data
-
-The input file is a Python file (.py) that already is in the project in 'dist' directory. The project already has the three files that
+The input file is a Python file that already is in the project in 'dist' directory. The project already has the three files that
 contains instructions of the monolithic programs: sum, multiplication and factorial, that will be executed by the algorithm.
 
 The program has 4 registers: A, B, C and D. The user must start their values at the program entry.
 
 ## Output data
-
 The output of the program is a quintuple that shows the values of the registers after undergoing some kind of instruction, and the next line.
 
-## Example
-
-### Input:
-
+### [Example] Input:
 ```
 Enter recorders values:
 A: 2
@@ -50,14 +41,12 @@ D: 0
 ```
 
 ### First line output:
-
 ```
 Start of program
 -> (A->2, B->0, C->3, D->0) [First Instruction]
 ```
 
 ### Where, the output in the next lines will be:
-
 ```
 ((A value, B value, C value, D value), next_line)
 ```
@@ -65,7 +54,6 @@ Start of program
 ## Actual example of operation
 
 ### Input file (sum.py):
-
 ```
 __sum = (
     (1, 'ZER', 'B', 5, 2),
@@ -79,7 +67,6 @@ __sum = (
 ```
 
 ### Input values, for example, to execute the sum:
-
 ```
 Enter recorders values:
 A: 0
@@ -89,7 +76,6 @@ D: 0
 ```
 
 ### Line to line output:
-
 ```
 Start of program
 -> (0, 2, 0, 0) [First Instruction -> ZER]
@@ -111,7 +97,6 @@ Start of program
 ```
 
 ### Final result of the program:
-
 ```
 End of monolithic program. Recorders have this values now:
 A:  2
